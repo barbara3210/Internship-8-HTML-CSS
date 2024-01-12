@@ -3,33 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Only</title>
+    <title>HTML ONLY</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="text-align: center; margin: 0%; font-family: Arial, sans-serif; font-size: medium; font-weight: bold; padding: 20px; background-color: black; color: white;">
-    <header style="text-align: center; padding: 20px; background-color: black; color: white;">
+<body>
+    <header>
         <h1>HTML Only</h1>
         <input type="checkbox" id="nav-toggle" style="display: none;">
         <label for="nav-toggle" id="toggle-btn">Navigation</label>
 
         <nav>
-            <table style="margin: 0 auto; ">
+            <table style="margin: 0 auto; border: 0;">
                 <tr>
-                    <td><a href="#what" style="padding: 10px; display: block;">What is this?</a></td>
+                    <td><a href="#what">What is this?</a></td>
                 </tr>
                 <tr>
-                    <td><a href="#how" style="padding: 10px; display: block;">How does this work?</a></td>
+                    <td><a href="#how">How does this work?</a></td>
                 </tr>
                 <tr>
-                    <td><a href="#why" style="padding: 10px; display: block;">But why?</a></td>
+                    <td><a href="#why">But why?</a></td>
                 </tr>
             </table>
         </nav>
     </header>
 
-    <table style="margin: 0 auto; border: 1px solid orange; font-weight: normal;">
+    <table>
         <tr>
             <td>
-                <section id="what" style="background-color: rgb(237, 226, 204);  color: black; text-align: left; padding-left: 1px; border: 10px solid fuchsia;">
+                <section id="what">
                     <h2>What is this?</h2>
                     <p>This page was inspired by a <a href="https://twitter.com/whitep4nth3r/status/1510568114966171649">tweet from Salma</a>. Pretty HTML only pages are difficult to make well, and accessible. But here we are. I'm trying my best.</p>
                 </section>
@@ -37,7 +38,7 @@
         </tr>
         <tr>
             <td>
-                <section id="how" style="background-color: rgb(237, 226, 204); color: black; text-align: left;padding-left: 1px; border: 10px solid turquoise;">
+                <section id="how">
                     <h2>How does this work?</h2>
                     <p>The key to a lot of this is leveraging using tables with a role="presentation" attribute to make decorated sections without CSS. If you view source on the page, you'll see that there are a LOT of tables. The table tag typically is used to display tabular data and should NOT be used as a layout method. However, since I am not allowed to use CSS, I am pretty much exclusively relying on tables for this purpose. The presentation role tells the browser to not expose the table and its tabular children in the accessibility tree. This will make it easier to navigate for assistive technology.</p>
                     <p>
@@ -52,7 +53,7 @@
         </tr>
         <tr>
             <td>
-                <section id="why" style="background-color: rgb(237, 226, 204); color: black; text-align: left; padding-left: 1px; border: 10px solid orange;">
+                <section id="why" >
                     <h2>But why?</h2>
                     <img src="https://gifsec.com/wp-content/uploads/2021/04/but-why-gif-1.gif" alt="But why gif" >
                     <p>I make terrible things. This was an exciting <a href="https://xkcd.com/356/">nerd snipe</a> on a Sunday, and I took up the challenge!</p>
@@ -60,7 +61,7 @@
             </td>
         </tr>
     </table>
-    <footer style="font-size: small; font-weight: normal;">
+    <footer>
         <p>Created by <a href="https://alexriviere.com/">Alex Riviere</a></p>
         <p>( ONE marquee for good measure...)</p>
     </footer>

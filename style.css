@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    margin: 0%;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+table {
+    margin: 0 auto;
+    border: 1px solid orange;
+    font-weight: normal;
+}
+
+#what {
+    background-color: rgb(237, 226, 204);
+    color: black;
+    text-align: left;
+    padding-left: 1px;
+    border: 10px solid fuchsia;
+}
+
+#how {
+    background-color: rgb(237, 226, 204);
+    color: black;
+    text-align: left;
+    padding-left: 1px;
+    border: 10px solid turquoise;
+}
+
+#why {
+    background-color: rgb(237, 226, 204);
+    color: black;
+    text-align: left;
+    padding-left: 1px;
+    border: 10px solid orange;
+}
+
+footer {
+    font-size: small;
+    font-weight: normal;
+}
